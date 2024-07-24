@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/app.css" />
+  </head>
+  <body>
+    <header id="header" style="font-family: 'Times New Roman', Times, serif;">Email Sending Page!
+    </header>
+    </body>
+  <div>
+      <div class="container" id="bar-btn">
+        <i class="fa fa-bars nav-bar" style="font-size:35px; margin: 10px 10px; color: black;  cursor: pointer;">
+        </i>
+        <div class="sidebar-header">
+          <h1 class="sidebar-title" id="navbar-name"></h1>
+          <img src="OIP.jpg" class="logo" alt="Logo">
+      </div>
+      </div>
+      <div class="email-container" id="manager-box">
+      <button class="btn">Email Manager</button>
+      </div>
+      <div class="drop-container" id="user-list" >
+        Colleagues: <select id="drop-list" class="select-list" multiple>
+        </select>
+        <div>
+          <button class="send-email" id="sendEmail">Send Email</button>
+        </div>
+      <div id="notification" class="notification ">
+        Email sent successfully!
+      </div>
+      </div>
+    </div>
+
+
+
+    <main id="app"></main>
+    <script src="js/helpers.js"></script>
+    <script src="components/router.js"></script>
+    <script src="components/autocomplete.js"></script>
+    <script src="components/modal.js"></script>
+    <script src="components/table.js"></script>
+    <script src="components/floatingactionbutton.js"></script>
+    <script src="https://unpkg.com/ryuu.js"></script>
+    <script src="https://unpkg.com/@domoinc/domo-phoenix/build/global/domoPhoenixWithMaps.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
